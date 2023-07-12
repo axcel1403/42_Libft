@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jmiranda <marvin@42quebec.com>             +#+  +:+       +#+        */
+/*   By: jmiranda <jmiranda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/27 17:36:22 by jmiranda          #+#    #+#             */
-/*   Updated: 2022/05/12 20:46:36 by jmiranda         ###   ########.fr       */
+/*   Updated: 2023/07/12 13:14:21 by jmiranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
@@ -26,7 +27,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 			*((unsigned char *)dst + i) = *((unsigned char *)src + i);
 			i--;
 		}
-	}	
+	}
 	else
 	{
 		while (len--)

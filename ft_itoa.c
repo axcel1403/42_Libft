@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jmiranda <marvin@42quebec.com>             +#+  +:+       +#+        */
+/*   By: jmiranda <jmiranda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/18 19:28:14 by jmiranda          #+#    #+#             */
-/*   Updated: 2022/05/28 23:44:41 by jmiranda         ###   ########.fr       */
+/*   Updated: 2023/07/12 13:13:17 by jmiranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 static	int	ft_intlen(long n)
@@ -67,4 +68,4 @@ char	*ft_itoa(int n)
 		nbr = nbr / 10;
 	}
 	return (str);
-}	
+}

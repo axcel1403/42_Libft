@@ -3,12 +3,13 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jmiranda <marvin@42quebec.com>             +#+  +:+       +#+         #
+#    By: jmiranda <jmiranda@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/13 19:59:56 by jmiranda          #+#    #+#              #
-#    Updated: 2022/11/08 07:50:04 by jmiranda         ###   ########.fr        #
+#    Updated: 2023/07/12 13:16:15 by jmiranda         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+
 NAME   = libft.a
 
 SRCS   = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c \
