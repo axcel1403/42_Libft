@@ -79,9 +79,7 @@ char	**ft_split(char	const *s, char c)
 {
 	char	**tab;
 	int		n_words;
-	int		free;
 
-	free = 0;
 	if (!s)
 		return (NULL);
 	n_words = ft_n_words(s, c);
